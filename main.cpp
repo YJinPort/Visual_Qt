@@ -85,6 +85,7 @@ void scaling_bilinear(Mat img, Mat& dst, Size size)
     }
 }
 
+//평행 이동
 void translation(Mat img, Mat& dst, Point pt)
 {
     Rect rect(Point(0, 0), img.size());
